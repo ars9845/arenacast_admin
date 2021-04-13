@@ -1,0 +1,63 @@
+@media (max-width: 1720px) {
+    .userKocht .userGroup {
+        .user.userRec5 {
+          margin: 0;
+        }
+      }
+      .vsKocht .vsDrag {
+        width: 100%;
+        word-break: keep-all;
+      }
+      .vs {
+        margin: 0 10px 0 10px;
+      }
+  }
+  @media (max-width: 1490px) {
+    .scrollBox {
+      height: 975px;
+    }
+    .userKocht {
+      .userBox {
+        flex: 0 0 100%;
+      }
+      .userGroup {
+        display: block;
+      }
+    }
+    .btnBottom {
+      justify-content: space-between;
+    }
+  }
+  @media (max-width: 1360px) {
+    .scrollBox {
+      height: 1475px;
+    }
+    .header {
+      .searchBox .search {
+        width: 500px;
+      }
+      .optionBox {margin-left: 20px;}
+    }
+    .basic {
+      height: 798px;
+      .basicBox {
+        display: block;
+  
+        .dau,
+        .arpu,
+        .sales {
+          margin: 0 0 16px 0;
+        }
+      }
+    }
+    .paging {
+      margin: 0;
+    }
+  
+  }
+  @media (max-width: 1260px) {
+    .paging .pageNumber {
+      padding: 0 20px 0 20px;
+    }
+  }
+  
